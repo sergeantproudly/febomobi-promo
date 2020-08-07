@@ -6,7 +6,7 @@
     </title>
     <script>
       var urlFor = 'febo'
-      if (window.location.hostname == 'lobanof.ru') {
+      if (window.location.hostname !== 'promo.febo.mobi' || window.location.hostname !== 'localhost') {
           var base = document.createElement("base");
           base.setAttribute("href", `/works/${urlFor}/`);
           document.head.appendChild(base);
@@ -53,7 +53,7 @@
       } );
       
     </script>
-    <link href="assets/css/main.css?v-1596625082895" rel="stylesheet"><link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link href="assets/css/main.css?v-1596818619227" rel="stylesheet"><link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
 <link rel="manifest" href="assets/img/favicons/site.webmanifest">
@@ -71,7 +71,7 @@
                   <p class="header__acquaintance"> Find out everything about  <a href="https://febo.mobi/">FEBO.mobi’s </a>diverse services
                   </p>
                   <button class="open-window-leave-request header__connect"> Connect service
-                  </button>
+                  </button><a class="header__get-bonus" href="#quiz">Get a bonus</a>
                   <div class="header__lang"><span>EN</span><a href="./ru">RU</a>
                   </div>
                 </div>
@@ -1629,6 +1629,6 @@
             </div>
           </div>
         </div>
-    <script src="assets/js/common.js?v-1596625082895"></script>
+    <script src="assets/js/common.js?v-1596818619227"></script>
   </body>
 </html>
