@@ -3,7 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title> Febo.mobi: get cashback for incoming calls and make calls for free!
-    </title><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W7X7KP9');</script>
+    </title>
+    <script>
+      var urlFor = 'febo'
+      if (window.location.hostname !== 'promo.febo.mobi' || window.location.hostname !== 'localhost') {
+          var base = document.createElement("base");
+          base.setAttribute("href", `/works/${urlFor}/`);
+          document.head.appendChild(base);
+      }
+      
+      
+    </script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W7X7KP9');</script>
     <meta name="description" content="">
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +53,7 @@
       } );
       
     </script>
-    <link href="assets/css/main.css?v-1597433185349" rel="stylesheet"><link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link href="assets/css/main.css?v-1612438557895" rel="stylesheet"><link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
 <link rel="manifest" href="assets/img/favicons/site.webmanifest">
@@ -56,12 +66,9 @@
           <div class="main-page__top">
             <header class="header">
               <div class="header__shell">
-                <div class="header__half"><a class="header__logo" href="/"><img src="assets/img/logo.png"></a><span class="header__navs"><a class="goal1eng header__navs__link" href="#how-to-get-cashback">How does it work?</a><a class="goal2eng header__navs__link" href="#how-can-i-spend-my-cashback"> How to spend?</a><a class="goal3eng header__navs__link" href="#quiz"> Bonus</a></span></div>
+                <div class="header__half"><a class="header__logo" href="/"><img src="assets/img/logo.svg"></a><span class="header__navs"><a class="goal1eng header__navs__link" href="#how-to-get-cashback">How does it work?</a><a class="goal2eng header__navs__link" href="#how-can-i-spend-my-cashback"> How to spend?</a></span></div>
                 <div class="header__half">
-                  <p class="header__acquaintance"> Find out everything about  <a href="https://febo.mobi/">FEBO.mobi’s </a>diverse services
-                  </p>
-                  <button class="open-window-leave-request goal4eng header__connect"> Connect service
-                  </button><a class="goal5eng header__get-bonus" href="#quiz">Get a bonus</a>
+                  <div class="header__stores"><a class="header__stores__link" href="./"><img class="header__stores__link__picture" src="assets/img/btn_appstore_en_patch.svg"></a><a class="header__stores__link" href="./"><img class="header__stores__link__picture" src="assets/img/btn_google_play_en_patch.svg"></a></div>
                   <div class="header__lang"><span>EN</span><a href="/ru/">RU</a>
                   </div>
                 </div>
@@ -71,7 +78,8 @@
               <div class="container"> 
                 <div class="row">
                   <div class="col-lg-7">
-                    <h1 class="initial-screen__title"> Do you want to get <strong>   cashback </strong> for incoming calls and call abroad for  <strong>   free? </strong>
+                    <div class="initial-screen__stores"><a class="initial-screen__stores__link" href="./"><img class="initial-screen__stores__link__picture" src="assets/img/btn_appstore_en_patch.svg"></a><a class="initial-screen__stores__link" href="./"><img class="initial-screen__stores__link__picture" src="assets/img/btn_google_play_en_patch.svg"></a></div>
+                    <h1 class="initial-screen__title"> Turn any incoming calls in&#160;<a target="_blank" href="https://febo.mobi/">FEBO.mobi</a> into valuable rewards
                     </h1>
                     <div class="initial-screen__illustration initial-screen__illustration_mobile"><svg viewBox="0 0 466 479" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M153.005 455.913C153.005 455.012 142.734 422.545 142.734 422.545L133.826 426.244L138.647 396.649L160.162 416.781L151.663 419.872L163.128 453.691L153.005 455.913Z" fill="white"/>
@@ -342,7 +350,11 @@
 <path d="M67.2017 240.921C67.4085 240.353 67.364 239.821 67.068 239.327C66.7721 238.832 66.0136 238.228 64.7926 237.514L45.4877 226.227C45.267 226.101 45.0571 225.99 44.8581 225.893C44.6614 225.791 44.5055 225.713 44.3904 225.661C43.7573 225.372 43.3271 225.268 43.0998 225.347C42.8605 225.415 42.6897 225.561 42.5873 225.786C42.5373 225.895 42.4923 226.07 42.4522 226.311C42.443 226.445 42.4292 226.628 42.4106 226.86L41.4106 226.366C41.3898 224.924 41.3681 223.981 41.3453 223.535C41.3249 223.084 41.2495 222.239 41.1191 221L64.7023 234.738C65.1844 235.014 65.6402 235.273 66.0696 235.512C66.4989 235.752 66.8647 235.941 67.1668 236.079C67.987 236.452 68.574 236.556 68.928 236.389C69.1649 236.289 69.4298 235.955 69.7228 235.389L70.7372 235.851L68.2161 241.383L67.2017 240.921Z" fill="#FFBE73"/>
 </g>
 </svg>
-                    </div><a class="goal6eng initial-screen__target" href="#how-to-get-cashback"> Yes, tell me more</a>
+                    </div>
+                    <div class="initial-screen__bottom"><a class="goal6eng initial-screen__target" href="#how-to-get-cashback"> Yes, tell me more</a>
+                      <p class="initial-screen__note">* You get cashback only for&#160;incoming calls <br class="br_md">to&#160;your FEBO.mobi number in&#160;the app.
+                      </p>
+                    </div>
                   </div>
                   <div class="col-lg-5">
                     <div class="initial-screen__illustration initial-screen__illustration_desktop"><svg viewBox="0 0 466 479" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -619,143 +631,6 @@
                 </div>
               </div>
             </section>
-            <section class="quiz" id="quiz">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2 class="quiz__title"> Let’s start with a €2 bonus!
-                    </h2>
-                    <p class="quiz__subtitle"> Answer 5 simple questions and get €2 on your <a class="goal7eng" href="https://febo.mobi/">FEBO.mobi  </a>account
-                    </p>
-                    <form class="quiz__questionnaire">
-                      <div class="quiz__questionnaire__radius">
-                        <div class="quiz__questionnaire__radius-two">
-                          <div class="quiz__questionnaire__step quiz__questionnaire__step_state-one quiz__questionnaire__step_state-two" data-step="0">
-                            <p class="quiz__questionnaire__step__title"> QUESTION 1
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> Do you use any apps / services / SIM cards when travelling?
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__checkboxes">
-                                <label class="quiz__questionnaire__step__checkbox" data-step="0"><span class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer1" value="answer1_1"><span class="quiz__questionnaire__step__checkbox__text"> Yes</span><span class="quiz__questionnaire__step__checkbox__help"> Cool! You’re an advanced Internet user. Our app will help you spend even less money on communication in your travles. </span></span></label>
-                                <label class="quiz__questionnaire__step__checkbox" data-step="0">
-                                  <div class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer1" value="answer1_2"><span class="quiz__questionnaire__step__checkbox__text"> No</span><span class="quiz__questionnaire__step__checkbox__help"> Just download our app and surf the Internet on favourable terms without a SIM card.</span>
-                                  </div>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next" data-nextstep="1" data-currentstep="0" disabled type="button"> Next<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="1">
-                            <p class="quiz__questionnaire__step__title"> QUESTION 2
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> Do you know what e-SIM is?
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__checkboxes">
-                                <label class="quiz__questionnaire__step__checkbox" data-step="1"><span class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer2" value="answer2_1"><span class="quiz__questionnaire__step__checkbox__text"> Yes</span><span class="quiz__questionnaire__step__checkbox__help"> Great! Enjoy e-SIM capabilities in our app without any limitations.</span></span></label>
-                                <label class="quiz__questionnaire__step__checkbox" data-step="1">
-                                  <div class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer2" value="answer2_2"><span class="quiz__questionnaire__step__checkbox__text"> No</span><span class="quiz__questionnaire__step__checkbox__help"> eSIM is an electronic SIM card built in your smartphone. You can use an eSIM in our app.</span>
-                                  </div>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next" data-nextstep="2" data-currentstep="1" disabled type="button"> Next<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="2">
-                            <p class="quiz__questionnaire__step__title"> QUESTION 3
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> Would you like to use an e-SIM?
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__checkboxes">
-                                <label class="quiz__questionnaire__step__checkbox" data-step="2"><span class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer3" value="answer3_1"><span class="quiz__questionnaire__step__checkbox__text"> Yes</span></span></label>
-                                <label class="quiz__questionnaire__step__checkbox" data-step="2">
-                                  <div class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer3" value="answer3_2"><span class="quiz__questionnaire__step__checkbox__text"> No</span>
-                                  </div>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next" data-nextstep="3" data-currentstep="2" disabled type="button"> Next<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="3">
-                            <p class="quiz__questionnaire__step__title"> QUESTION 4
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> Are you interested in receiving cashback for incoming calls and spend it on Internet abroad or international calls?
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__checkboxes">
-                                <label class="quiz__questionnaire__step__checkbox" data-step="3"><span class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer4" value="answer4_1"><span class="quiz__questionnaire__step__checkbox__text"> Yes</span><span class="quiz__questionnaire__step__checkbox__help"> Great, find out how it will work on our page.</span></span></label>
-                                <label class="quiz__questionnaire__step__checkbox" data-step="3">
-                                  <div class="quiz__questionnaire__step__checkbox__shell">
-                                    <input type="radio" name="answer4" value="answer4_2"><span class="quiz__questionnaire__step__checkbox__text"> No</span><span class="quiz__questionnaire__step__checkbox__help"> We will provide you with all details on our page. We could probably change your mind. Subscribe to our news!</span>
-                                  </div>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next" data-nextstep="4" data-currentstep="3" disabled type="button"> Next<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="4">
-                            <p class="quiz__questionnaire__step__title"> QUESTION 5
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> What country are you from?
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__field-text">
-                                <label class="quiz__questionnaire__step__field-text__input quiz__questionnaire__step__field-text__input_country">
-                                  <input type="text" name="country" id="country" required><span class="quiz__questionnaire__step__field-text__input__placeholder">Country name</span>
-                                  <div class="quiz__questionnaire__step__field-text__input__error">The country doesn't match any of the lists
-                                  </div>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next quiz__questionnaire__step__next_country" data-nextstep="5" data-currentstep="4" disabled type="button"> Next<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="5">
-                            <p class="quiz__questionnaire__step__title"> AND FINALLY
-                            </p>
-                            <p class="quiz__questionnaire__step__subtitle"> Leave us your email to get the bonus from us
-                            </p>
-                            <div class="quiz__questionnaire__step__bottom">
-                              <div class="quiz__questionnaire__step__field-text">
-                                <label class="quiz__questionnaire__step__field-text__input quiz__questionnaire__step__field-text__input_mail">
-                                  <input type="mail" placeholder="" name="email" required><span class="quiz__questionnaire__step__field-text__input__placeholder">Email</span>
-                                  <div class="quiz__questionnaire__step__field-text__input__error"><img src="assets/img/error_white.svg">Enter a valid email 
-                                  </div>
-                                </label>
-                                <label class="quiz__questionnaire__step__field-text__notification">
-                                  <input class="quiz__questionnaire__step__field-text__notification__input" type="checkbox" checked="true" name="notify"><span class="quiz__questionnaire__step__field-text__notification__text"> <span> Notify me as soon as the service is available</span></span>
-                                </label>
-                              </div>
-                              <button class="quiz__questionnaire__step__next quiz__questionnaire__step__next_mail" data-nextstep="6" data-currentstep="5" disabled> Get the bonus<img src="assets/img/next-step.svg">
-                              </button>
-                            </div>
-                          </div>
-                          <div class="quiz__questionnaire__step" data-step="6">
-                            <p class="quiz__questionnaire__step__thanks__title"> Thank you for your answers!
-                            </p>
-                            <p class="quiz__questionnaire__step__thanks__subtitle"> We have credited you with the bonus to your mail address. We’ll notify you as soon as the app is available!
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </section>
             <section class="how-to-get-cashback" id="how-to-get-cashback">
               <div class="container">
                 <div class="row">
@@ -770,12 +645,12 @@
                       </div>
                       <div class="how-to-get-cashback__step">
                         <div class="how-to-get-cashback__step__image"><img src="assets/img/step-2.svg"></div>
-                        <p class="how-to-get-cashback__step__desc"> Get a free number
+                        <p class="how-to-get-cashback__step__desc"> Get a free number in the app and give it collegues and online
                         </p>
                       </div>
                       <div class="how-to-get-cashback__step">
                         <div class="how-to-get-cashback__step__image"><img src="assets/img/step-3.svg"></div>
-                        <p class="how-to-get-cashback__step__desc"> Get incoming calls and earn cashback 
+                        <p class="how-to-get-cashback__step__desc"> Get incoming calls and earn&#160;¢5 cashback per minute
                         </p>
                       </div>
                     </div>
@@ -1520,9 +1395,9 @@
                       </div>
                       <div class="how-can-i-spend-my-cashback__way">
                         <div class="how-can-i-spend-my-cashback__way__illustration"><img src="assets/img/way-2.svg"></div>
-                        <p class="how-can-i-spend-my-cashback__way__title"> Internet abroad
+                        <p class="how-can-i-spend-my-cashback__way__title"> Gift cards
                         </p>
-                        <p class="how-can-i-spend-my-cashback__way__desc"> Roaming available with eSIM
+                        <p class="how-can-i-spend-my-cashback__way__desc"> Get a gift card for your cashback
                         </p>
                       </div>
                     </div>
@@ -1570,8 +1445,8 @@
             <footer class="footer">
               <div class="container">
                 <div class="row">
-                  <div class="col-lg-12"><img class="footer__logo" src="assets/img/logo.png">
-                    <p class="footer__copyright">© FEBO Telecom Ltd 2020</p>
+                  <div class="col-lg-12"><img class="footer__logo" src="assets/img/logo-slim.svg">
+                    <p class="footer__copyright">© FEBO Telecom Ltd 2015</p>
                     <p class="footer__address">Office 602, 6th floor, Apollo Court, 232 Arch. Makariou III Ave., Limassol, 3030, Cyprus</p>
                     <div class="footer__links"><a class="goal11eng footer__links__link" href="assets/docs/ToU - Febo.mobi (EN).docx" download>   Terms of Use </a>
                       <div class="footer__links__hr">|</div><a class="goal12eng footer__links__link" href="assets/docs/Privacy Policy - Febo.mobi (EN).docx" download> Privacy Terms</a>
@@ -1614,6 +1489,6 @@
             </div>
           </div>
         </div>
-    <script src="assets/js/common.js?v-1597433185349"></script>
+    <script src="assets/js/common.js?v-1612438557895"></script>
   </body>
 </html>
